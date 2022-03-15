@@ -1,7 +1,7 @@
 {
   "name": "teamsprofile",
   "version": "1.0.0",
-  "description": "Unit 10 homework",
+  "description": "Challenge 10 assignment",
   "main": "app.js",
   "directories": {
     "lib": "lib",
