@@ -1,4 +1,4 @@
-const Employee = require("../classes/Employee");
+const Employee = require ("../class/Employee");
 
 describe("Employee", () => {
     it("Can instantiate Employee instance", () => {

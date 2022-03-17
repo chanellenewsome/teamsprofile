@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const Engineer = require("./classes/Engineer");
-const Intern = require("./classes/Intern");
-const Manager = require("./classes/Manager");
+const Engineer = require("./class/Engineer");
+const Intern = require("./class/Intern");
+const Manager = require("./class/Manager");
 
 const employees = [];
 
@@ -155,7 +155,7 @@ function addHtml(member){
         </div>`
         }
         console.log("adding team member");
-        fs.appendFile("./output/team.html", data, function (err) {
+        fs.appendFile("./index/team.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
@@ -172,7 +172,7 @@ function finishHtml() {
 </body>
 </html>`;
 
-    fs.appendFile("./html/team.html", html, function (err) {
+    fs.appendFile("./index/team.html", html, function (err) {
         if (err) {
             console.log(err);
         };
